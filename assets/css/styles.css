@@ -268,3 +268,11 @@ footer {
     color:#444;
   }
 }
+
+header {
+  background-image: url('/assets/img/test_img.png'); /* The URL should be the path to your actual image */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Adjust text color for visibility */
+  /* Add other styling properties as needed */
+}
