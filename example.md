@@ -1,6 +1,7 @@
 
 ---
 layout: default
+
 ---
 
 # Mind
