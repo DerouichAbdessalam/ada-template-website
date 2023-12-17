@@ -104,10 +104,12 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width: 100%;
+  position: relative;
+  background-image: url('/assets/img/test_img.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
 header ul {
@@ -170,10 +172,16 @@ header ul a strong {
 }
 
 section {
-  width:750px;
-  float:right;
+  width: 100%;
   padding-bottom:50px;
 }
+
+/* You may also want to adjust or remove the following rules */
+.wrapper {
+  width: auto; /* or 100%, depending on how you want to use it */
+  margin: 0 auto;
+}
+
 
 small {
   font-size:11px;
@@ -269,10 +277,3 @@ footer {
   }
 }
 
-header {
-  background-image: url('/assets/img/test_img.png'); /* The URL should be the path to your actual image */
-  background-size: cover;
-  background-position: center;
-  color: white; /* Adjust text color for visibility */
-  /* Add other styling properties as needed */
-}
